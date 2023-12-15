@@ -11,7 +11,7 @@ public class NumberToWord {
 
     public static void main(String[] args) {
 
-        String strNum = "215";
+        String strNum = "200";
 
 //      should it be Char[]?
         String[] numberDigits = strNum.split("");
@@ -31,39 +31,39 @@ public class NumberToWord {
             Integer singleDigit=Integer.valueOf( numberDigits[0]);
             switch (singleDigit){
                     case 1 :
-                        System.out.print(NumberLists.hundredsNames[1] +  " و "  );
+                        System.out.print(NumberLists.hundredsNames[1]  );
                         break;
 
                     case 2 :
-                        System.out.print(NumberLists.hundredsNames[2]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[2]);
                         break;
 
                     case 3 :
-                        System.out.print(NumberLists.hundredsNames[3]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[3] );
                         break;
 
                     case 4 :
-                        System.out.print(NumberLists.hundredsNames[4]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[4] );
                         break;
 
                     case 5 :
-                        System.out.print(NumberLists.hundredsNames[5]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[5] );
                         break;
 
                     case 6 :
-                        System.out.print(NumberLists.hundredsNames[6]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[6]);
                         break;
 
                     case 7 :
-                        System.out.print(NumberLists.hundredsNames[7]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[7]);
                         break;
 
                     case 8 :
-                        System.out.print(NumberLists.hundredsNames[8]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[8] );
                         break;
 
                     case 9 :
-                        System.out.print(NumberLists.hundredsNames[9]+  " و " );
+                        System.out.print(NumberLists.hundredsNames[9]);
                         break;
 
 
@@ -79,43 +79,43 @@ public class NumberToWord {
 
 
                 case 0 :
-                    System.out.print(NumberLists.twoDigits[0]);
+                    System.out.print(" و " +NumberLists.twoDigits[0]);
                     break;
 
                 case 1 :
-                    System.out.print(NumberLists.twoDigits[1]);
+                    System.out.print(" و " +NumberLists.twoDigits[1]);
                     break;
 
                 case 2 :
-                    System.out.print(NumberLists.twoDigits[2]);
+                    System.out.print(" و " +NumberLists.twoDigits[2]);
                     break;
 
                 case 3 :
-                    System.out.print(NumberLists.twoDigits[3]);
+                    System.out.print(" و " +NumberLists.twoDigits[3]);
                     break;
 
                 case 4 :
-                    System.out.print(NumberLists.twoDigits[4]);
+                    System.out.print(" و " +NumberLists.twoDigits[4]);
                     break;
 
                 case 5 :
-                    System.out.print(NumberLists.twoDigits[5]);
+                    System.out.print(" و " +NumberLists.twoDigits[5]);
                     break;
 
                 case 6 :
-                    System.out.print(NumberLists.twoDigits[6]);
+                    System.out.print(" و " +NumberLists.twoDigits[6]);
                     break;
 
                 case 7 :
-                    System.out.print(NumberLists.twoDigits[7]);
+                    System.out.print(" و " +NumberLists.twoDigits[7]);
                     break;
 
                 case 8 :
-                    System.out.print(NumberLists.twoDigits[8]);
+                    System.out.print(" و " +NumberLists.twoDigits[8]);
                     break;
 
                 case 9 :
-                    System.out.print(NumberLists.twoDigits[9]);
+                    System.out.print(" و " +NumberLists.twoDigits[9]);
                     break;
 
 
@@ -135,35 +135,35 @@ public class NumberToWord {
             switch (singleDigit){
 
                 case 2 :
-                    System.out.print(NumberLists.tensNames[1]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[1]);
                     break;
 
                 case 3 :
-                    System.out.print(NumberLists.tensNames[2]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[2] );
                     break;
 
                 case 4 :
-                    System.out.print(NumberLists.tensNames[3]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[3] );
                     break;
 
                 case 5 :
-                    System.out.print(NumberLists.tensNames[4]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[4]);
                     break;
 
                 case 6 :
-                    System.out.print(NumberLists.tensNames[5]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[5]);
                     break;
 
                 case 7 :
-                    System.out.print(NumberLists.tensNames[6]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[6] );
                     break;
 
                 case 8 :
-                    System.out.print(NumberLists.tensNames[7]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[7]);
                     break;
 
                 case 9 :
-                    System.out.print(NumberLists.tensNames[8]+  " و " );
+                    System.out.print(" و " +NumberLists.tensNames[8] );
                     break;
 
 
@@ -180,50 +180,50 @@ public class NumberToWord {
 
             switch (singleDigit){
                 case 1 :
-                    System.out.print(NumberLists.onesNames[1]);
+                    System.out.print(" و " +NumberLists.onesNames[1]);
                     break;
 
                 case 2 :
-                    System.out.print(NumberLists.onesNames[2]);
+                    System.out.print(" و " +NumberLists.onesNames[2]);
 
                     break;
 
                 case 3 :
-                    System.out.print(NumberLists.onesNames[3]);
+                    System.out.print(" و " +NumberLists.onesNames[3]);
 
                     break;
 
                 case 4 :
-                    System.out.print(NumberLists.onesNames[4]);
+                    System.out.print(" و " +NumberLists.onesNames[4]);
 
                     break;
 
                 case 5 :
 
-                    System.out.print(NumberLists.onesNames[5]);
+                    System.out.print(" و " +NumberLists.onesNames[5]);
 
                     break;
 
                 case 6 :
 
-                    System.out.print(NumberLists.onesNames[6]);
+                    System.out.print(" و " +NumberLists.onesNames[6]);
 
                     break;
 
                 case 7 :
-                    System.out.print(NumberLists.onesNames[7]);
+                    System.out.print(" و " +NumberLists.onesNames[7]);
 
                     break;
 
                 case 8 :
 
-                    System.out.print(NumberLists.onesNames[8]);
+                    System.out.print(" و " +NumberLists.onesNames[8]);
 
                     break;
 
                 case 9 :
 
-                    System.out.print(NumberLists.onesNames[9]);
+                    System.out.print(" و " +NumberLists.onesNames[9]);
 
                     break;
 
